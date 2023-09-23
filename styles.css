@@ -1,0 +1,620 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Futura,sans-serif;
+    box-sizing: border-box;
+}
+
+input:focus{
+
+    outline:none ;
+}
+
+
+body {
+
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.container-fluid {
+
+    background: url("images/home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+
+    background: transparent;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 98vw;
+    /* overflow-x: hidden; */
+    margin: 0 20px 20px;
+    padding-top: 20px;
+}
+
+nav ul li {
+    display: flex;
+    list-style: none;
+    text-decoration: underline;
+}
+
+.left {
+    width: 70vw;
+    /* text-align: center; */
+    line-height: 30px;
+    padding-left: 6.9rem;
+}
+
+.mid {
+    /* background-color: blue; */
+    width: 70vw;
+
+}
+
+.right {
+    /* background-color: aqua; */
+    width: 30%;
+
+}
+
+nav .left .brand {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    padding-left: 5px;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 0.2em ;
+    letter-spacing: 0.3em ;
+}
+
+
+.nav-ul {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-right: 10.9em;
+    margin: 0;
+}
+
+.nav-item {
+
+    margin: 0;
+    color: #000000;
+    /* padding: 20px; */
+    text-decoration: none;
+    justify-content: space-evenly;
+    padding: 1.5rem 2.5rem 0 1.5rem;
+}
+
+.nav-item:hover{
+
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+
+
+
+/* ****************************first section******************** */
+
+
+#first {
+
+
+    width: 100vw;
+    height: 100vh;
+    text-align: left;
+    line-height: 3.5rem;
+}
+
+.introduction {
+    text-align: left;
+    padding: 9rem 10rem 10rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+
+/* button */
+
+.catalog {
+    border-radius: 20px;
+    padding: 10px;
+    width: 20%;
+    background: transparent;
+}
+
+.catalog:hover{
+
+    background: #000000;
+    color: white;
+}
+
+/* *************** About section*************************  */
+
+#about {
+
+    height: 500px;
+    width: 100vw;
+}
+
+
+/* Center the .more container content vertically and horizontally */
+.more {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+    padding: 20px; 
+}
+
+/* Style the h2 element */
+.more h2 {
+    margin-top: 50px; 
+    letter-spacing: 0.7em;
+}
+
+/* Style the .content container to arrange the image and paragraph horizontally */
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center; 
+    margin-top: 70px; 
+    margin-left: 150px;
+}
+
+/* Style the image container */
+.image-container {
+    margin-right: 20px; 
+}
+
+.hand-image {
+    height: 250px;
+    width: 350px;
+}
+
+
+.paragraph {
+    flex: 1; /* Allow the paragraph to take up available space */
+    font-size: 0.7rem;
+    text-align: left; 
+}
+
+.second-para {
+    width: 50%;
+    margin-left: 50px;
+    padding-top: 12px;
+}
+
+#about h4 {
+    font-size: 15px;
+    padding-top: 20px;
+    margin-left: 50px;
+
+}
+
+/* Style the FontAwesome icon */
+.fa-solid.fa-arrow-right {
+    font-size: 15px;
+}
+
+
+
+
+/* *************** Catalog section*************************  */
+
+
+#Catalog{
+   
+    width: 100vw;
+    justify-content: center; /* Horizontal centering */
+    align-items: center;
+
+}
+
+
+.items{
+
+    text-align: center;
+}
+
+#Catalog h2{
+    padding-top: 50px;
+    letter-spacing: 0.7em;
+
+}
+
+h3{
+    padding: 45px 0 0px 0px;
+    text-align: left;
+    margin-left: 350px;
+}
+
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 30px 30px; 
+    margin: 50px 290px; 
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+
+
+.image img {
+
+    object-fit: cover;
+    width: 200px; 
+    height: 200px; 
+}
+
+.image p {
+    font-size: 14px; 
+    color: #333; 
+    
+
+}
+
+
+#Catalog .catalog-button {
+    display: block;
+    margin: 0 auto; /* Set margin to 'auto' to center horizontally */
+    border-radius: 20px;
+    padding: 10px;
+    width: 15%;
+    background: black;
+    color: #fff;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+#Catalog .catalog-button:hover{
+
+    background-color: #fff;
+    color: #000000;
+    cursor: pointer;
+}
+
+
+/* **********************Advantages section********************** */
+
+#advantages{
+    margin-top: 150px;
+}
+
+.candles-properties{
+
+    margin: 50px 0 0 100px;
+}
+
+.advantages-image{
+
+    height: 400px;
+    width: 320px;
+}
+
+#advantages h2{
+    letter-spacing: 0.7em;
+    /* font-size: 1.9rem ; */
+    text-align: center;
+}
+
+#advantages h3{
+    padding: 0;
+    text-align: left;
+    margin-left: 50px;
+    font-size: 1.2rem;
+}
+
+.advantages-para{
+
+    width: 50%;
+    margin-left: 50px;
+    padding: 12px 0;
+    font-size: 0.8rem;
+}
+
+
+/* **********************Contact section********************** */
+
+.email{
+
+   
+    background: url("images/sarah-dorweiler-x2Tmfd1-SgA-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+
+    margin-top: 100px;
+    height: 300px;
+    width: 100vw;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.email h3{
+    margin: 0;
+    text-align: center;
+    padding: 90px 0 30px 0;
+    font-size: 1.2rem;
+}
+
+.email input{
+
+    border-radius: 20px;
+    padding: 10px;
+    width: 15%;
+    border: 1px solid black;
+    color: black;
+    text-align: center;
+    background: transparent;
+
+}
+
+.email-button{
+    border-radius: 20px;
+    padding: 10px 5px 10px 5px;
+    width: 10%;
+    border: 1px solid black;
+    color: #fff;
+    text-align: center;
+    background-color: black;
+    margin-left: -35px;
+
+}
+
+
+/* **********************articles section********************** */
+
+
+#articles{
+
+    align-items: center;
+    text-align: center;
+    margin: 50px 0 100px 0;
+}
+
+#articles h2{
+
+    letter-spacing: 0.7em;
+}
+
+
+.useful-articles{
+
+    padding: 50px 0 30px 0; 
+}
+.articles-image img{
+
+    padding-left: 50px;
+    height: 200px;
+    width: 290px;
+}
+
+
+
+.articles-para{
+    text-align: center;
+    padding: 20px 10px 0 0px;
+    font-size: 1.0rem;
+
+}
+
+.image h5{
+
+    font-weight: normal;
+    text-align: left;
+    padding: 18px 0px 0px 52px;
+    font-size: 0.8rem;
+    text-decoration: underline;
+}
+
+
+
+/* ********************** queries section********************** */
+
+
+#queries{
+
+    background: url("images/three-flowers-spring1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+
+    width: 100vw;
+    height: 450px;
+
+}
+
+.queries-content{
+
+    text-align: center;
+    padding: 20px  0 50px 0;
+
+}
+
+
+.queries-content h2{
+
+    font-size: 1.9rem;
+    padding-top: 70px;
+}
+
+.queries-content p{
+
+    padding-top: 20px;
+    font-size: 0.9rem;
+}
+
+.inputs{
+
+    margin-top: 25px;
+
+}
+
+.queries-content input{
+
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px 10px;
+    width: 20%;
+    color: #000000;
+}
+
+.query-button{
+
+    width: 10%;
+    border: 1px solid black;
+    border-radius: 20px;
+    background: black;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.queries-content .consent{
+    font-size: 0.6rem;
+}
+
+
+/* footer */
+
+footer{
+    padding: 90px 0;
+    background: white;
+    color: #6a6a6a;
+    border-top: 1px solid #dddddd;
+}
+
+.inner-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+}
+
+.about-soy{
+
+    width: 70%;
+    padding: 0 60px 0 40px;
+}
+
+footer h2{
+    margin-bottom: 20px;
+    color: #1c1b1b;
+    font-size: 13px;
+
+    font-family: Futura,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #1c1b1b;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+
+}
+
+.about-content p{
+    line-height: 20px;
+    word-break: break-word;
+    font-size: 0.9rem ;
+}
+
+ul  li{
+    display: inline;
+    list-style: none;
+    margin: 60px 0px;
+    
+}
+
+li .fa-brands{
+    margin: 30px 0px;
+    padding-right: 20px;
+    cursor: pointer;
+
+}
+
+
+.footer-links{
+
+    width: 50%;
+    padding:0 20px 0 40px ;
+}
+
+.footer-links ul li{
+    display: block;
+    list-style: none;
+    margin : 10px 0;
+}
+
+/* .linklist{
+    
+    margin: 10px;
+} */
+
+.other-list{
+    padding: 10px 0 ;
+    font-size: 15px ;
+}
+
+
+.newsletter-content p{
+    line-height: 20px;
+    word-break: break-word;
+    font-size: 0.9rem ;
+}
+
+form{
+    padding: 10px;
+}
+
+#newsletter-form {
+
+    
+    display: block;
+    padding: 12px 14px;
+    border-radius: 0;
+    border: 1px solid #dddddd;
+    width: 100%;
+    line-height: normal;
+    resize: none;
+    transition: .1s ease-in-out;
+    background: transparent;
+    
+}
+
+form .Subscribe-btn{
+
+    background-color: #000000;
+    color: white;
+    padding: 15px 30px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    letter-spacing:  .2em;
+}
+
+
+
